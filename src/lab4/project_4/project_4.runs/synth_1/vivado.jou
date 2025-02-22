@@ -1,0 +1,13 @@
+#-----------------------------------------------------------
+# Vivado v2022.1 (64-bit)
+# SW Build 3526262 on Mon Apr 18 15:48:16 MDT 2022
+# IP Build 3524634 on Mon Apr 18 20:55:01 MDT 2022
+# Start of session at: Wed Mar 29 11:08:13 2023
+# Process ID: 8300
+# Current directory: C:/Users/student/project_4_Denis_Mihnea/project_4_Denis_Mihnea.runs/synth_1
+# Command line: vivado.exe -log sumator16.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source sumator16.tcl
+# Log file: C:/Users/student/project_4_Denis_Mihnea/project_4_Denis_Mihnea.runs/synth_1/sumator16.vds
+# Journal file: C:/Users/student/project_4_Denis_Mihnea/project_4_Denis_Mihnea.runs/synth_1\vivado.jou
+# Running On: DESKTOP-1FEJ3MB, OS: Windows, CPU Frequency: 2904 MHz, CPU Physical cores: 6, Host memory: 17019 MB
+#-----------------------------------------------------------
+source sumator16.tcl -notrace

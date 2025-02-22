@@ -1,0 +1,15 @@
+#-----------------------------------------------------------
+# Vivado v2022.1 (64-bit)
+# SW Build 3526262 on Mon Apr 18 15:48:16 MDT 2022
+# IP Build 3524634 on Mon Apr 18 20:55:01 MDT 2022
+# Start of session at: Wed Mar 29 09:48:26 2023
+# Process ID: 16520
+# Current directory: C:/Users/student/project_4_Denis_Mihnea
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent8776 C:\Users\student\project_4_Denis_Mihnea\project_4_Denis_Mihnea.xpr
+# Log file: C:/Users/student/project_4_Denis_Mihnea/vivado.log
+# Journal file: C:/Users/student/project_4_Denis_Mihnea\vivado.jou
+# Running On: DESKTOP-1FEJ3MB, OS: Windows, CPU Frequency: 2904 MHz, CPU Physical cores: 6, Host memory: 17019 MB
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/student/project_4_Denis_Mihnea/project_4_Denis_Mihnea.xpr
+update_compile_order -fileset sources_1

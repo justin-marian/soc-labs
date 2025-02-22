@@ -1,0 +1,21 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../project.srcs/sources_1/new/binary_counter.v" \
+"../../../../project.srcs/sources_1/new/divizor_de_ceas.v" \
+"../../../../project.srcs/sources_1/new/conversie_bin_BCD.v" \
+"../../../../project.srcs/sources_1/new/afisare_7seg.v" \
+"../../../../project.ip_user_files/bd/figura3_3/ip/figura3_3_binary_counter_0_0/sim/figura3_3_binary_counter_0_0.v" \
+"../../../../project.ip_user_files/bd/figura3_3/ip/figura3_3_binary_counter_1_0/sim/figura3_3_binary_counter_1_0.v" \
+"../../../../project.ip_user_files/bd/figura3_3/ip/figura3_3_divizor_de_ceas_0_0/sim/figura3_3_divizor_de_ceas_0_0.v" \
+"../../../../project.ip_user_files/bd/figura3_3/ip/figura3_3_bin2bcd_0_0/sim/figura3_3_bin2bcd_0_0.v" \
+"../../../../project.ip_user_files/bd/figura3_3/ip/figura3_3_bin2bcd_1_0/sim/figura3_3_bin2bcd_1_0.v" \
+"../../../../project.ip_user_files/bd/figura3_3/ip/figura3_3_afisare_7seg_0_0/sim/figura3_3_afisare_7seg_0_0.v" \
+"../../../../project.ip_user_files/bd/figura3_3/sim/figura3_3.v" \
+"../../../../project.gen/sources_1/bd/figura3_3/hdl/figura3_3_wrapper.v" \
+"../../../../project.srcs/sim_1/new/simulare.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

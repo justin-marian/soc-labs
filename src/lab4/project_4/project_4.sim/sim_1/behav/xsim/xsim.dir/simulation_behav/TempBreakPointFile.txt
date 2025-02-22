@@ -1,0 +1,2 @@
+Breakpoint File Version 1.0
+36,true,"C:/Users/User1/Desktop/SOC LABS/lab4/labul4/project_4/project_4.srcs/sim_1/new/simulation.v"

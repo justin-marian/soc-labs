@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="simulation_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="simulation" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="49.310 ns"></ZoomStartTime>
+      <ZoomEndTime time="202.511 ns"></ZoomEndTime>
+      <Cursor1Time time="1,000.000 ns"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="162"></NameColumnWidth>
+      <ValueColumnWidth column_width="103"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="13" />
+   <wvobject fp_name="/simulation/num1" type="array">
+      <obj_property name="ElementShortName">num1[15:0]</obj_property>
+      <obj_property name="ObjectShortName">num1[15:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/simulation/num2" type="array">
+      <obj_property name="ElementShortName">num2[15:0]</obj_property>
+      <obj_property name="ObjectShortName">num2[15:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/simulation/sum" type="array">
+      <obj_property name="ElementShortName">sum[15:0]</obj_property>
+      <obj_property name="ObjectShortName">sum[15:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/simulation/cout" type="logic">
+      <obj_property name="ElementShortName">cout</obj_property>
+      <obj_property name="ObjectShortName">cout</obj_property>
+   </wvobject>
+   <wvobject fp_name="/simulation/sumator/carry_in" type="logic">
+      <obj_property name="ElementShortName">carry_in</obj_property>
+      <obj_property name="ObjectShortName">carry_in</obj_property>
+   </wvobject>
+   <wvobject fp_name="/simulation/sumator/C1" type="logic">
+      <obj_property name="ElementShortName">C1</obj_property>
+      <obj_property name="ObjectShortName">C1</obj_property>
+   </wvobject>
+   <wvobject fp_name="/simulation/sumator/C2" type="logic">
+      <obj_property name="ElementShortName">C2</obj_property>
+      <obj_property name="ObjectShortName">C2</obj_property>
+   </wvobject>
+   <wvobject fp_name="/simulation/sumator/C3" type="logic">
+      <obj_property name="ElementShortName">C3</obj_property>
+      <obj_property name="ObjectShortName">C3</obj_property>
+   </wvobject>
+   <wvobject fp_name="/simulation/sumator/C4" type="logic">
+      <obj_property name="ElementShortName">C4</obj_property>
+      <obj_property name="ObjectShortName">C4</obj_property>
+   </wvobject>
+   <wvobject fp_name="/simulation/sumator/sumator1/sum" type="array">
+      <obj_property name="ElementShortName">sum[3:0]</obj_property>
+      <obj_property name="ObjectShortName">sum[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/simulation/sumator/sumator2/sum" type="array">
+      <obj_property name="ElementShortName">sum[3:0]</obj_property>
+      <obj_property name="ObjectShortName">sum[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/simulation/sumator/sumator3/sum" type="array">
+      <obj_property name="ElementShortName">sum[3:0]</obj_property>
+      <obj_property name="ObjectShortName">sum[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/simulation/sumator/sumator4/sum" type="array">
+      <obj_property name="ElementShortName">sum[3:0]</obj_property>
+      <obj_property name="ObjectShortName">sum[3:0]</obj_property>
+   </wvobject>
+</wave_config>

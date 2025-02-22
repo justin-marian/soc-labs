@@ -1,0 +1,24 @@
+0.7
+2020.2
+Oct 14 2022
+05:20:55
+C:/Users/User1/Desktop/SOC LABS/lab5/lab5.ip_user_files/bd/design_1/ip/design_1_bloc_0_0/sim/design_1_bloc_0_0.v,1683190372,verilog,,C:/Users/User1/Desktop/SOC LABS/lab5/lab5.ip_user_files/bd/design_1/ip/design_1_bloc_1_0/sim/design_1_bloc_1_0.v,,design_1_bloc_0_0,,,,,,,,
+C:/Users/User1/Desktop/SOC LABS/lab5/lab5.ip_user_files/bd/design_1/ip/design_1_bloc_1_0/sim/design_1_bloc_1_0.v,1683190372,verilog,,C:/Users/User1/Desktop/SOC LABS/lab5/lab5.ip_user_files/bd/design_1/ip/design_1_bloc_2_0/sim/design_1_bloc_2_0.v,,design_1_bloc_1_0,,,,,,,,
+C:/Users/User1/Desktop/SOC LABS/lab5/lab5.ip_user_files/bd/design_1/ip/design_1_bloc_2_0/sim/design_1_bloc_2_0.v,1683190372,verilog,,C:/Users/User1/Desktop/SOC LABS/lab5/lab5.ip_user_files/bd/design_1/sim/design_1.v,,design_1_bloc_2_0,,,,,,,,
+C:/Users/User1/Desktop/SOC LABS/lab5/lab5.ip_user_files/bd/design_1/sim/design_1.v,1683190372,verilog,,C:/Users/User1/Desktop/SOC LABS/lab5/lab5.srcs/sources_1/new/adjust_exp.v,,design_1,,,,,,,,
+C:/Users/User1/Desktop/SOC LABS/lab5/lab5.sim/sim_1/behav/xsim/glbl.v,1649976174,verilog,,,,glbl,,,,,,,,
+C:/Users/User1/Desktop/SOC LABS/lab5/lab5.srcs/sim_1/new/sim.v,1685362524,verilog,,,,sim,,,,,,,,
+C:/Users/User1/Desktop/SOC LABS/lab5/lab5.srcs/sources_1/new/adjust_exp.v,1685362442,verilog,,C:/Users/User1/Desktop/SOC LABS/lab5/lab5.srcs/sources_1/new/align_mant.v,,adjust_exp,,,,,,,,
+C:/Users/User1/Desktop/SOC LABS/lab5/lab5.srcs/sources_1/new/align_mant.v,1685363060,verilog,,C:/Users/User1/Desktop/SOC LABS/lab5/lab5.srcs/sources_1/new/choose_exp.v,,align_mant,,,,,,,,
+C:/Users/User1/Desktop/SOC LABS/lab5/lab5.srcs/sources_1/new/choose_exp.v,1685362433,verilog,,C:/Users/User1/Desktop/SOC LABS/lab5/lab5.srcs/sources_1/new/comp_exp.v,,choose_exp,,,,,,,,
+C:/Users/User1/Desktop/SOC LABS/lab5/lab5.srcs/sources_1/new/comp_exp.v,1685362381,verilog,,C:/Users/User1/Desktop/SOC LABS/lab5/lab5.srcs/sources_1/new/concat_mant.v,,comp_exp,,,,,,,,
+C:/Users/User1/Desktop/SOC LABS/lab5/lab5.srcs/sources_1/new/concat_mant.v,1685363064,verilog,,C:/Users/User1/Desktop/SOC LABS/lab5/lab5.srcs/sources_1/new/normalize.v,,concat_mant,,,,,,,,
+C:/Users/User1/Desktop/SOC LABS/lab5/lab5.srcs/sources_1/new/normalize.v,1683190586,verilog,,C:/Users/User1/Desktop/SOC LABS/lab5/lab5.srcs/sources_1/new/op_mant.v,,normalize,,,,,,,,
+C:/Users/User1/Desktop/SOC LABS/lab5/lab5.srcs/sources_1/new/op_mant.v,1683187200,verilog,,C:/Users/User1/Desktop/SOC LABS/lab5/lab5.srcs/sources_1/new/parse_float.v,,op_mant,,,,,,,,
+C:/Users/User1/Desktop/SOC LABS/lab5/lab5.srcs/sources_1/new/parse_float.v,1685362365,verilog,,C:/Users/User1/Desktop/SOC LABS/lab5/lab5.srcs/sources_1/new/reg_concat_mant.v,,parse_float,,,,,,,,
+C:/Users/User1/Desktop/SOC LABS/lab5/lab5.srcs/sources_1/new/pipeline.v,1685363658,verilog,,C:/Users/User1/Desktop/SOC LABS/lab5/lab5.ip_user_files/bd/design_1/ip/design_1_bloc_0_0/sim/design_1_bloc_0_0.v,,pipeline,,,,,,,,
+C:/Users/User1/Desktop/SOC LABS/lab5/lab5.srcs/sources_1/new/reg_concat_mant.v,1685362425,verilog,,C:/Users/User1/Desktop/SOC LABS/lab5/lab5.srcs/sources_1/new/reg_mult_mant.v,,reg_concat_mant,,,,,,,,
+C:/Users/User1/Desktop/SOC LABS/lab5/lab5.srcs/sources_1/new/reg_mult_mant.v,1685362377,verilog,,C:/Users/User1/Desktop/SOC LABS/lab5/lab5.srcs/sources_1/new/reg_res_mant.v,,reg_mult_mant,,,,,,,,
+C:/Users/User1/Desktop/SOC LABS/lab5/lab5.srcs/sources_1/new/reg_res_mant.v,1685362466,verilog,,C:/Users/User1/Desktop/SOC LABS/lab5/lab5.srcs/sources_1/new/reg_sing_exp.v,,reg_res_mant,,,,,,,,
+C:/Users/User1/Desktop/SOC LABS/lab5/lab5.srcs/sources_1/new/reg_sing_exp.v,1685362479,verilog,,C:/Users/User1/Desktop/SOC LABS/lab5/lab5.srcs/sources_1/new/registru.v,,reg_sing_exp,,,,,,,,
+C:/Users/User1/Desktop/SOC LABS/lab5/lab5.srcs/sources_1/new/registru.v,1685362371,verilog,,C:/Users/User1/Desktop/SOC LABS/lab5/lab5.srcs/sim_1/new/sim.v,,reg_mult_exp,,,,,,,,

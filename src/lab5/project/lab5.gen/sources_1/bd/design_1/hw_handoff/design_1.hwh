@@ -1,0 +1,110 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<EDKSYSTEM EDWVERSION="1.2" TIMESTAMP="Thu May  4 11:52:51 2023" VIVADOVERSION="2022.1">
+
+  <SYSTEMINFO ARCH="artix7" DEVICE="7a100t" NAME="design_1" PACKAGE="csg324" SPEEDGRADE="-1"/>
+
+  <EXTERNALPORTS>
+    <PORT DIR="I" LEFT="31" NAME="t" RIGHT="0" SIGIS="undef" SIGNAME="External_Ports_t">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="bloc_0" PORT="b"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="I" LEFT="31" NAME="x" RIGHT="0" SIGIS="undef" SIGNAME="External_Ports_x">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="bloc_0" PORT="a"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="I" LEFT="31" NAME="y" RIGHT="0" SIGIS="undef" SIGNAME="External_Ports_y">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="bloc_1" PORT="b"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="O" LEFT="31" NAME="z" RIGHT="0" SIGIS="undef" SIGNAME="bloc_2_c">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="bloc_2" PORT="c"/>
+      </CONNECTIONS>
+    </PORT>
+  </EXTERNALPORTS>
+
+  <EXTERNALINTERFACES/>
+
+  <MODULES>
+    <MODULE COREREVISION="1" FULLNAME="/bloc_0" HWVERSION="1.0" INSTANCE="bloc_0" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="bloc" VLNV="xilinx.com:module_ref:bloc:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="Component_Name" VALUE="design_1_bloc_0_0"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" LEFT="31" NAME="a" RIGHT="0" SIGIS="undef" SIGNAME="External_Ports_x">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="x"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" LEFT="31" NAME="b" RIGHT="0" SIGIS="undef" SIGNAME="External_Ports_t">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="t"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" LEFT="31" NAME="c" RIGHT="0" SIGIS="undef" SIGNAME="bloc_0_c">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="bloc_1" PORT="a"/>
+            <CONNECTION INSTANCE="bloc_2" PORT="a"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/bloc_1" HWVERSION="1.0" INSTANCE="bloc_1" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="bloc" VLNV="xilinx.com:module_ref:bloc:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="Component_Name" VALUE="design_1_bloc_1_0"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" LEFT="31" NAME="a" RIGHT="0" SIGIS="undef" SIGNAME="bloc_0_c">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="bloc_0" PORT="c"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" LEFT="31" NAME="b" RIGHT="0" SIGIS="undef" SIGNAME="External_Ports_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="y"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" LEFT="31" NAME="c" RIGHT="0" SIGIS="undef" SIGNAME="bloc_1_c">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="bloc_2" PORT="b"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/bloc_2" HWVERSION="1.0" INSTANCE="bloc_2" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="bloc" VLNV="xilinx.com:module_ref:bloc:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="Component_Name" VALUE="design_1_bloc_2_0"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" LEFT="31" NAME="a" RIGHT="0" SIGIS="undef" SIGNAME="bloc_0_c">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="bloc_0" PORT="c"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" LEFT="31" NAME="b" RIGHT="0" SIGIS="undef" SIGNAME="bloc_1_c">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="bloc_1" PORT="c"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" LEFT="31" NAME="c" RIGHT="0" SIGIS="undef" SIGNAME="bloc_2_c">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="z"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+  </MODULES>
+
+</EDKSYSTEM>

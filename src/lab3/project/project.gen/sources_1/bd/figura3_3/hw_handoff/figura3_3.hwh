@@ -1,0 +1,255 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<EDKSYSTEM EDWVERSION="1.2" TIMESTAMP="Thu Mar 16 16:15:02 2023" VIVADOVERSION="2022.2">
+
+  <SYSTEMINFO ARCH="artix7" DEVICE="7a100t" NAME="figura3_3" PACKAGE="csg324" SPEEDGRADE="-1"/>
+
+  <EXTERNALPORTS>
+    <PORT DIR="I" NAME="pause" SIGIS="undef" SIGNAME="External_Ports_pause">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="binary_counter_0" PORT="pause"/>
+        <CONNECTION INSTANCE="binary_counter_1" PORT="pause"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="I" NAME="reset" POLARITY="ACTIVE_LOW" SIGIS="rst" SIGNAME="External_Ports_reset">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="divizor_de_ceas_0" PORT="reset"/>
+        <CONNECTION INSTANCE="binary_counter_0" PORT="reset"/>
+        <CONNECTION INSTANCE="binary_counter_1" PORT="reset"/>
+        <CONNECTION INSTANCE="afisare_7seg_0" PORT="reset"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="O" NAME="clk_out_led_0" SIGIS="undef" SIGNAME="divizor_de_ceas_0_clk_out_led">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="divizor_de_ceas_0" PORT="clk_out_led"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="I" NAME="clk_in_0" SIGIS="undef" SIGNAME="External_Ports_clk_in_0">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="divizor_de_ceas_0" PORT="clk_in"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="O" LEFT="7" NAME="An_0" RIGHT="0" SIGIS="undef" SIGNAME="afisare_7seg_0_An">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="afisare_7seg_0" PORT="An"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="O" NAME="DP_0" SIGIS="undef" SIGNAME="afisare_7seg_0_DP">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="afisare_7seg_0" PORT="DP"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="O" LEFT="6" NAME="Seg_0" RIGHT="0" SIGIS="undef" SIGNAME="afisare_7seg_0_Seg">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="afisare_7seg_0" PORT="Seg"/>
+      </CONNECTIONS>
+    </PORT>
+  </EXTERNALPORTS>
+
+  <EXTERNALINTERFACES/>
+
+  <MODULES>
+    <MODULE COREREVISION="1" FULLNAME="/afisare_7seg_0" HWVERSION="1.0" INSTANCE="afisare_7seg_0" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="afisare_7seg" VLNV="xilinx.com:module_ref:afisare_7seg:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="Component_Name" VALUE="figura3_3_afisare_7seg_0_0"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="clk_out_seg" SIGIS="undef" SIGNAME="divizor_de_ceas_0_clk_out_seg">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="divizor_de_ceas_0" PORT="clk_out_seg"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="reset" POLARITY="ACTIVE_LOW" SIGIS="rst" SIGNAME="External_Ports_reset">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="reset"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" LEFT="3" NAME="BCD0" RIGHT="0" SIGIS="undef" SIGNAME="bin2bcd_0_BCD0">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="bin2bcd_0" PORT="BCD0"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" LEFT="3" NAME="BCD1" RIGHT="0" SIGIS="undef" SIGNAME="bin2bcd_0_BCD1">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="bin2bcd_0" PORT="BCD1"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" LEFT="3" NAME="BCD2" RIGHT="0" SIGIS="undef" SIGNAME="bin2bcd_1_BCD0">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="bin2bcd_1" PORT="BCD0"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" LEFT="3" NAME="BCD3" RIGHT="0" SIGIS="undef" SIGNAME="bin2bcd_1_BCD1">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="bin2bcd_1" PORT="BCD1"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" LEFT="7" NAME="An" RIGHT="0" SIGIS="undef" SIGNAME="afisare_7seg_0_An">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="An_0"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" LEFT="6" NAME="Seg" RIGHT="0" SIGIS="undef" SIGNAME="afisare_7seg_0_Seg">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="Seg_0"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="DP" SIGIS="undef" SIGNAME="afisare_7seg_0_DP">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="DP_0"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/bin2bcd_0" HWVERSION="1.0" INSTANCE="bin2bcd_0" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="bin2bcd" VLNV="xilinx.com:module_ref:bin2bcd:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="Component_Name" VALUE="figura3_3_bin2bcd_0_0"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" LEFT="5" NAME="valoare_bin" RIGHT="0" SIGIS="undef" SIGNAME="binary_counter_0_value_bin">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="binary_counter_0" PORT="value_bin"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" LEFT="3" NAME="BCD0" RIGHT="0" SIGIS="undef" SIGNAME="bin2bcd_0_BCD0">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="afisare_7seg_0" PORT="BCD0"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" LEFT="3" NAME="BCD1" RIGHT="0" SIGIS="undef" SIGNAME="bin2bcd_0_BCD1">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="afisare_7seg_0" PORT="BCD1"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/bin2bcd_1" HWVERSION="1.0" INSTANCE="bin2bcd_1" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="bin2bcd" VLNV="xilinx.com:module_ref:bin2bcd:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="Component_Name" VALUE="figura3_3_bin2bcd_1_0"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" LEFT="5" NAME="valoare_bin" RIGHT="0" SIGIS="undef" SIGNAME="binary_counter_1_value_bin">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="binary_counter_1" PORT="value_bin"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" LEFT="3" NAME="BCD0" RIGHT="0" SIGIS="undef" SIGNAME="bin2bcd_1_BCD0">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="afisare_7seg_0" PORT="BCD2"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" LEFT="3" NAME="BCD1" RIGHT="0" SIGIS="undef" SIGNAME="bin2bcd_1_BCD1">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="afisare_7seg_0" PORT="BCD3"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/binary_counter_0" HWVERSION="1.0" INSTANCE="binary_counter_0" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="binary_counter" VLNV="xilinx.com:module_ref:binary_counter:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="Component_Name" VALUE="figura3_3_binary_counter_0_0"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="clk_out_led" SIGIS="undef" SIGNAME="binary_counter_1_carry_out">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="binary_counter_1" PORT="carry_out"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="reset" POLARITY="ACTIVE_LOW" SIGIS="rst" SIGNAME="External_Ports_reset">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="reset"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="pause" SIGIS="undef" SIGNAME="External_Ports_pause">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="pause"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" LEFT="5" NAME="value_bin" RIGHT="0" SIGIS="undef" SIGNAME="binary_counter_0_value_bin">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="bin2bcd_0" PORT="valoare_bin"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="carry_out" SIGIS="undef"/>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/binary_counter_1" HWVERSION="1.0" INSTANCE="binary_counter_1" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="binary_counter" VLNV="xilinx.com:module_ref:binary_counter:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="Component_Name" VALUE="figura3_3_binary_counter_1_0"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="clk_out_led" SIGIS="undef" SIGNAME="divizor_de_ceas_0_clk_out_led">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="divizor_de_ceas_0" PORT="clk_out_led"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="reset" POLARITY="ACTIVE_LOW" SIGIS="rst" SIGNAME="External_Ports_reset">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="reset"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="pause" SIGIS="undef" SIGNAME="External_Ports_pause">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="pause"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" LEFT="5" NAME="value_bin" RIGHT="0" SIGIS="undef" SIGNAME="binary_counter_1_value_bin">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="bin2bcd_1" PORT="valoare_bin"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="carry_out" SIGIS="undef" SIGNAME="binary_counter_1_carry_out">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="binary_counter_0" PORT="clk_out_led"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/divizor_de_ceas_0" HWVERSION="1.0" INSTANCE="divizor_de_ceas_0" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="divizor_de_ceas" VLNV="xilinx.com:module_ref:divizor_de_ceas:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="Component_Name" VALUE="figura3_3_divizor_de_ceas_0_0"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="clk_in" SIGIS="undef" SIGNAME="External_Ports_clk_in_0">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="clk_in_0"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="reset" POLARITY="ACTIVE_LOW" SIGIS="rst" SIGNAME="External_Ports_reset">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="reset"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="clk_out_led" SIGIS="undef" SIGNAME="divizor_de_ceas_0_clk_out_led">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="clk_out_led_0"/>
+            <CONNECTION INSTANCE="binary_counter_1" PORT="clk_out_led"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="clk_out_seg" SIGIS="undef" SIGNAME="divizor_de_ceas_0_clk_out_seg">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="afisare_7seg_0" PORT="clk_out_seg"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+  </MODULES>
+
+</EDKSYSTEM>

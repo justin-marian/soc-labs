@@ -1,0 +1,23 @@
+{
+   "ActiveEmotionalView":"Default View",
+   "Default View_ScaleFactor":"1.25",
+   "Default View_TopLeft":"-31,-284",
+   "ExpandedHierarchyInLayout":"",
+   "guistr":"# # String gsaved with Nlview 7.0r6  2020-01-29 bk=1.5227 VDI=41 GEI=36 GUI=JA:10.0 non-TLS
+#  -string -flagsOSRD
+preplace port port-id_clk_0 -pg 1 -lvl 0 -x -30 -y -70 -defaultsOSRD
+preplace portBus D -pg 1 -lvl 4 -x 850 -y -30 -defaultsOSRD
+preplace inst util_vector_logic_1 -pg 1 -lvl 3 -x 690 -y -30 -defaultsOSRD
+preplace inst util_vector_logic_0 -pg 1 -lvl 2 -x 410 -y -80 -defaultsOSRD
+preplace inst vio_0 -pg 1 -lvl 1 -x 130 -y -60 -defaultsOSRD
+preplace netloc util_vector_logic_1_Res 1 2 1 550 -80n
+preplace netloc vio_0_probe_out0 1 1 1 260 -90n
+preplace netloc vio_0_probe_out1 1 1 1 260 -70n
+preplace netloc vio_0_probe_out2 1 1 2 260J -10 550
+preplace netloc clk_0_1 1 0 1 N -70
+preplace netloc util_vector_logic_1_Res1 1 0 4 -10 40 N 40 N 40 830
+levelinfo -pg 1 -30 130 410 690 850
+pagesize -pg 1 -db -bbox -sgen -110 -240 940 160
+"
+}
+0

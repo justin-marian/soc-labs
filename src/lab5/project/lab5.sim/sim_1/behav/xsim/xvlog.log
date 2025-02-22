@@ -1,0 +1,38 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/User1/Desktop/SOC LABS/lab5/lab5.srcs/sources_1/new/pipeline.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module pipeline
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/User1/Desktop/SOC LABS/lab5/lab5.ip_user_files/bd/design_1/ip/design_1_bloc_0_0/sim/design_1_bloc_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module design_1_bloc_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/User1/Desktop/SOC LABS/lab5/lab5.ip_user_files/bd/design_1/ip/design_1_bloc_1_0/sim/design_1_bloc_1_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module design_1_bloc_1_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/User1/Desktop/SOC LABS/lab5/lab5.ip_user_files/bd/design_1/ip/design_1_bloc_2_0/sim/design_1_bloc_2_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module design_1_bloc_2_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/User1/Desktop/SOC LABS/lab5/lab5.ip_user_files/bd/design_1/sim/design_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module design_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/User1/Desktop/SOC LABS/lab5/lab5.srcs/sources_1/new/adjust_exp.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module adjust_exp
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/User1/Desktop/SOC LABS/lab5/lab5.srcs/sources_1/new/align_mant.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module align_mant
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/User1/Desktop/SOC LABS/lab5/lab5.srcs/sources_1/new/choose_exp.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module choose_exp
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/User1/Desktop/SOC LABS/lab5/lab5.srcs/sources_1/new/comp_exp.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module comp_exp
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/User1/Desktop/SOC LABS/lab5/lab5.srcs/sources_1/new/concat_mant.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module concat_mant
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/User1/Desktop/SOC LABS/lab5/lab5.srcs/sources_1/new/normalize.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module normalize
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/User1/Desktop/SOC LABS/lab5/lab5.srcs/sources_1/new/op_mant.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module op_mant
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/User1/Desktop/SOC LABS/lab5/lab5.srcs/sources_1/new/parse_float.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module parse_float
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/User1/Desktop/SOC LABS/lab5/lab5.srcs/sources_1/new/reg_concat_mant.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module reg_concat_mant
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/User1/Desktop/SOC LABS/lab5/lab5.srcs/sources_1/new/reg_mult_mant.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module reg_mult_mant
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/User1/Desktop/SOC LABS/lab5/lab5.srcs/sources_1/new/reg_res_mant.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module reg_res_mant
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/User1/Desktop/SOC LABS/lab5/lab5.srcs/sources_1/new/reg_sing_exp.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module reg_sing_exp
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/User1/Desktop/SOC LABS/lab5/lab5.srcs/sources_1/new/registru.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module reg_mult_exp
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/User1/Desktop/SOC LABS/lab5/lab5.srcs/sim_1/new/sim.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module sim

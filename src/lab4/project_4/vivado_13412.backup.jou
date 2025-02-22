@@ -1,0 +1,26 @@
+#-----------------------------------------------------------
+# Vivado v2022.2 (64-bit)
+# SW Build 3671981 on Fri Oct 14 05:00:03 MDT 2022
+# IP Build 3669848 on Fri Oct 14 08:30:02 MDT 2022
+# Start of session at: Thu Mar 30 13:01:12 2023
+# Process ID: 13412
+# Current directory: C:/Users/sf/Desktop/emma/an2/sem2/soc/lab4/labul4/project_4
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent17344 C:\Users\sf\Desktop\emma\an2\sem2\soc\lab4\labul4\project_4\project_4.xpr
+# Log file: C:/Users/sf/Desktop/emma/an2/sem2/soc/lab4/labul4/project_4/vivado.log
+# Journal file: C:/Users/sf/Desktop/emma/an2/sem2/soc/lab4/labul4/project_4\vivado.jou
+# Running On: DESKTOP-QSTS0EO, OS: Windows, CPU Frequency: 2611 MHz, CPU Physical cores: 10, Host memory: 16849 MB
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/sf/Desktop/emma/an2/sem2/soc/lab4/labul4/project_4/project_4.xpr
+update_compile_order -fileset sources_1
+create_bd_design "design_1"
+update_compile_order -fileset sources_1
+create_bd_cell -type module -reference sumator16 sumator16_0
+set_property location {0.5 -108 21} [get_bd_cells sumator16_0]
+create_bd_cell -type module -reference sumator16 sumator16_1
+delete_bd_objs [get_bd_cells sumator16_1]
+delete_bd_objs [get_bd_cells sumator16_0]
+create_bd_cell -type module -reference sumator16 sumator16_0
+set_property location {1 57 2} [get_bd_cells sumator16_0]
+create_bd_cell -type module -reference sumator_4_biti sumator_4_biti_0
+delete_bd_objs [get_bd_cells sumator16_0]

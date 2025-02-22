@@ -1,0 +1,40 @@
+{
+   "ActiveEmotionalView":"Default View",
+   "Default View_ScaleFactor":"0.83205",
+   "Default View_TopLeft":"-136,-230",
+   "ExpandedHierarchyInLayout":"",
+   "guistr":"# # String gsaved with Nlview 7.0r6  2020-01-29 bk=1.5227 VDI=41 GEI=36 GUI=JA:10.0 non-TLS
+#  -string -flagsOSRD
+preplace port port-id_pause -pg 1 -lvl 0 -x -40 -y -10 -defaultsOSRD
+preplace port port-id_reset -pg 1 -lvl 0 -x -40 -y 230 -defaultsOSRD
+preplace port port-id_clk_out_led_0 -pg 1 -lvl 5 -x 1180 -y 30 -defaultsOSRD
+preplace port port-id_clk_in_0 -pg 1 -lvl 0 -x -40 -y 110 -defaultsOSRD
+preplace port port-id_DP_0 -pg 1 -lvl 5 -x 1180 -y -10 -defaultsOSRD
+preplace portBus An_0 -pg 1 -lvl 5 -x 1180 -y -80 -defaultsOSRD
+preplace portBus Seg_0 -pg 1 -lvl 5 -x 1180 -y -40 -defaultsOSRD
+preplace inst bin2bcd_0 -pg 1 -lvl 3 -x 730 -y -20 -defaultsOSRD
+preplace inst bin2bcd_1 -pg 1 -lvl 3 -x 730 -y -160 -defaultsOSRD
+preplace inst divizor_de_ceas_0 -pg 1 -lvl 3 -x 730 -y 120 -defaultsOSRD
+preplace inst binary_counter_0 -pg 1 -lvl 2 -x 430 -y 0 -defaultsOSRD
+preplace inst binary_counter_1 -pg 1 -lvl 1 -x 140 -y -40 -defaultsOSRD
+preplace inst afisare_7seg_0 -pg 1 -lvl 4 -x 1040 -y -40 -defaultsOSRD
+preplace netloc afisare_7seg_0_An 1 4 1 1160J -80n
+preplace netloc afisare_7seg_0_DP 1 4 1 1160J -20n
+preplace netloc afisare_7seg_0_Seg 1 4 1 NJ -40
+preplace netloc bin2bcd_0_BCD0 1 3 1 860 -50n
+preplace netloc bin2bcd_0_BCD1 1 3 1 900 -30n
+preplace netloc bin2bcd_1_BCD0 1 3 1 910 -170n
+preplace netloc bin2bcd_1_BCD1 1 3 1 870 -150n
+preplace netloc binary_counter_0_value_bin 1 2 1 560 -20n
+preplace netloc binary_counter_1_carry_out 1 1 1 270 -30n
+preplace netloc binary_counter_1_value_bin 1 1 2 270 -160 NJ
+preplace netloc clk_in_0_1 1 0 3 NJ 110 NJ 110 NJ
+preplace netloc divizor_de_ceas_0_clk_out_led 1 0 5 0 80 N 80 580 50 860J 70 1160J
+preplace netloc divizor_de_ceas_0_clk_out_seg 1 3 1 890 -90n
+preplace netloc pause_0_1 1 0 2 -10J 40 280
+preplace netloc reset_1 1 0 4 -20 50 270 90 570 -90 880
+levelinfo -pg 1 -40 140 430 730 1040 1180
+pagesize -pg 1 -db -bbox -sgen -140 -280 1320 250
+"
+}
+0
